@@ -26,3 +26,19 @@ body{
 	from{ left:100px }
 	to{ left:800px }
 }
+
+
+.sun{
+width:100px;
+height:100px;
+margin-top:5px;
+position:relative;
+	background-repeat: no-repeat;
+	color: cyan;
+	top: 700px;
+	animation: boat 90s infinite;
+	animation-name:sun;
+	animation-duration: 5s;
+	animation-timing-function: linear;
+
+}
