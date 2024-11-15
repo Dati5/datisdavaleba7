@@ -4,11 +4,25 @@ body{
 	background-size: cover;
 	width: 100%;
 	height:930px;
+	background-color: blue;
 }
 
 .boat{
-	width: 250px;
+	width:250px;
 	height: 100px;
-	position: relative;
+	position:relative;
+	background-repeat: no-repeat;
+	color: cyan;
+	top: 700px;
+	animation: boat 90s infinite;
+	animation-name: boat;
+	animation-duration: 5s;
+	animation-timing-function: linear;
 
+
+
+}
+@keyframes boat{
+	from{ left:100px }
+	to{ left:800px }
 }
