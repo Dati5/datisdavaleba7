@@ -9,7 +9,7 @@ body{
 
 .boat{
 	width:250px;
-	height: 100px;
+	height: 120px;
 	position:relative;
 	background-repeat: no-repeat;
 	color: cyan;
@@ -29,16 +29,50 @@ body{
 
 
 .sun{
-width:100px;
-height:100px;
-margin-top:5px;
-position:relative;
+	width:100px;
+	height:100px;
+	
+	margin-left: 500px;
+	position:relative;
 	background-repeat: no-repeat;
 	color: cyan;
-	top: 700px;
-	animation: boat 90s infinite;
+	margin-top: 30px;
+	animation:sun 90s infinite;
 	animation-name:sun;
 	animation-duration: 5s;
 	animation-timing-function: linear;
 
+
+}
+
+
+
+@keyframes sun{
+	from{ top:30px; }
+	to{ top:90px; }
+}
+
+
+
+.birds{
+	width:100px;
+	height:100px;
+	
+	margin-left:15pxpx;
+	position:relative;
+	background-repeat: no-repeat;
+	color: cyan;
+	margin-top: 30px;
+	animation:birds 90s infinite;
+	animation-name:birds;
+	animation-duration: 5s;
+	animation-timing-function: linear;
+}
+
+@keyframes{
+	from{ left:15px; }
+
+	to{ left:50px; }
+
+	
 }
